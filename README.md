@@ -10,7 +10,7 @@ You can run the solution it either directly on your system using Python or via D
 
 Option 1: Run Locally with Python
 1. Clone the Repository:
-    git clone https://github.com/nV153/PokeETLCodingChallenge/tree/main
+    git clone https://github.com/nV153/PokeETLChallenge
     cd PokeETLCodingChallenge
 2. Install Dependencies:
     pip install -r requirements.txt
