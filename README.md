@@ -50,3 +50,7 @@ The data loaded from the Pokemon API is correct and available when creating the 
 Missing evolutions are skipped, meaning evolution entries are only inserted into the database if both the source and target Pokemon are already present. Otherwise, the relationship is ignored. This is only relevant for Pokemon whose evolution has a significant number gap and if not all Pokemon are loaded into the database.
 When the Pokemon gender rate is -1, the Pokemon is treated as genderless. This is stored in the database as 'NULL' for both the male and female percentages.
 
+POTENTIAL IMPROVEMENTS/FEATURES :
+With more time, it would make sense to implement a proper frontend with a simple user interface.
+It would also be useful to include extra data from the PokéAPI, such as sprites and potential attacks.
+Other improvements could include enhancing error handling and adding tests to ensure the robustness of the code.
