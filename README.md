@@ -1,4 +1,4 @@
-# PokeETLCodingChallenge
+# PokeETLChallenge
 This Python application addresses a data engineering challenge focused on the extraction, transformation, and loading of Pokémon data with help of the PokeAPI (https://pokeapi.co). 
 It fetches detailed information for multiple Pokemon from the PokeAPI, transforms the nested JSON responses into a structured format, and loads the data into a relational SQLite database.
 Users can then query and explore various Pokémon attributes, such as types, abilities, stats, and evolution chains, via a command-line interface.
@@ -11,7 +11,7 @@ You can run the solution it either directly on your system using Python or via D
 Option 1: Run Locally with Python
 1. Clone the Repository:
     git clone https://github.com/nV153/PokeETLChallenge
-    cd PokeETLCodingChallenge
+    cd PokeETLChallenge
 2. Install Dependencies:
     pip install -r requirements.txt
 3. Run the Application:
