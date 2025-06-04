@@ -32,11 +32,11 @@ The manner in which this project accomplishes this is shown in the Key Mapping O
 
 Key Mapping Overview:
 Basic Info (name, height, weight) → Stored in table: 'pokemon'
+Gender Rate (species.gender_rate) → Transformed into male and female percentages, stored in table: 'pokemon'
 Types (types[].type.name) → Stored in tables: 'type' and linking table 'pokemon_type' (many-to-many)
 Abilities (abilities[].ability.name) → Stored in tables: 'ability' and 'pokemon_ability' (many-to-many)
 Stats (stats[].stat.name and base_stat) → Stored in table: 'stats' (one row per stat per Pokemon)
 Held Items (held_items[].item.name) → Stored in tables: 'held_item' and 'pokemon_held_item' (optional, many-to-many)
-Gender Rate (species.gender_rate) → Transformed into male and female percentages, stored in table: 'gender'
 Evolution Chain (evolution_chain.chain) → Recursively parsed and stored in table: 'evolutions' with from_id → to_id and optional trigger, level, or item
 
 The schema is normalized to avoid redundancy.
